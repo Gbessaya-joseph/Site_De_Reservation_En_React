@@ -1,0 +1,39 @@
+.recherche{
+    width: 70%;
+    height: 25%;
+    border: 3px solid #543423;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DCC7BB;
+    border-radius: 25px;
+    animation: texte 2s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+.vol{
+    padding: 1%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #543423;
+    animation: texte 2s ease-in-out infinite both;
+}
+
+
+.ligne{
+    height: 40px;
+    border-top: 2px solid #543423;
+    border-right: 2px solid #543423;
+    border-left: 2px solid #543423;
+}
+.icon{
+    margin-left: 5%;
+    size: 5em;
+    font-size: 1.5em;
+    color: #543423;
+    padding: 1%;
+}

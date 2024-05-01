@@ -1,0 +1,122 @@
+.con-div{
+    width: 70%;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 2px solid #543423;
+    
+}
+
+.img-div{
+    width: 40%;
+    height: 100%;
+}
+
+.con-image{
+    width: 101%;
+    height:100% ;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+.input-div{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.con-titre{
+    font-weight: bold;
+    font-size: 2em;
+    font: 'Actor', cursive;
+    text-align: center;
+    color: #543423;
+}
+.avion{
+    width: 50%;
+    margin-right: 100%;
+    position: inherit;
+}
+
+.button-div{
+    width: 50%;
+    height: 15%;
+    align-items: center;
+}
+
+.con-paragraph{
+    margin: none;
+    border: 3px solid #543423;
+}
+
+@media screen and (max-width: 768px){
+    .con-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20%;
+        margin-left: 10%;
+        border-radius: 10px;
+        border: 2px solid #543423;
+        
+    }
+    
+    .img-div{
+        display: none;
+    }
+    
+    .avion{
+        display: none;
+    }
+    .con-image{
+        width: 100%;
+        height:100% ;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+    .input-div{
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .con-titre{
+        font-weight: bold;
+        font-size: 2em;
+        font: 'Actor', cursive;
+        text-align: center;
+        color: #543423;
+    }
+    
+    
+    .button-div{
+        width: 100%;
+        height: 15%;
+        align-items: center;
+    }
+    
+    .con-paragraph{
+        margin: none;
+        border: 3px solid #543423;
+    }
+    
+}
+
+
+@media screen and (max-width: 500) {
+    
+}

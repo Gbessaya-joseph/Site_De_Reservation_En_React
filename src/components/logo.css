@@ -1,0 +1,12 @@
+.avion{
+    margin: 2% 0px 0px 67%;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .avion{
+        display: none;
+    }
+}
+

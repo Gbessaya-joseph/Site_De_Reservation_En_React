@@ -1,0 +1,9 @@
+.titre-Alias{
+    /*faire comme si le texte s'écrivait lettre par lettre*/
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #543423;
+    margin: 10px;
+    margin-top: 20px;
+}
